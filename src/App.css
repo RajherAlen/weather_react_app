@@ -1,38 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
 .App {
+  color: rgb(211, 211, 211);
+  background-image: linear-gradient(
+    to bottom,
+    rgb(77, 12, 180),
+    rgba(120, 69, 187, 0.808)
+  );
+  width: 100vw;
+  height: 100vh;
+  font-size: 26px;
+}
+
+.searchField {
   text-align: center;
+  padding-top: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.searchField input {
+  width: 100%;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid rgba(212, 212, 212, 0.459);
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.name {
+  margin-top: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.fas {
+  margin-top: 120px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.weather {
+  color: rgb(170, 170, 170);
+  font-size: 20px;
 }
