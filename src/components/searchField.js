@@ -3,7 +3,7 @@ import axios from "axios";
 import CityTemp from "./cityTemp";
 
 function SearchInput() {
-  const [query, setQuery] = useState("London");
+  const [query, setQuery] = useState("Berlin");
   const [temp, setTemp] = useState("");
   const [city, setCity] = useState("");
   const [weather, setWeather] = useState("");
